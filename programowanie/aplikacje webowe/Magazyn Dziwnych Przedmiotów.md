@@ -110,7 +110,7 @@ Teraz magazyn to już nie powinien być tylko jeden obiekt. Magazynów może by�
 
 Implementacja nowych metod:
 - `usun_przedmiot(nazwa_przedmiotu)` - usuwa pierwszy napotkany przedmiot o podanej nazwie z listy, aktualizuje stan magazynu, zwraca boolean.
-- `wypisz_delikatne_lub_ciezkie(prog_wagi)` - wypisuje przedmioty spełniające warunek progu wagi (włącznie).
+- `wypisz_delikatne_lub_ciezkie(prog_wagi)` - wypisuje przedmioty, które są delikatne lub mają wagę większą niż podany próg. Np. `wypisz_delikatne_lub_ciezkie(5.358)` wypisuje wszystkie przedmioty, które są delikatne lub mają wagę większą niż 5.358 kg.
 - `oblicz_srednia_dziwnosc()` - oblicza i zwraca średnią. Dla pustego magazynu zwraca 0.
 ##### Rozbudowa
 Rozbudowa metody `dodaj_przedmiot(Przedmiot)`:
