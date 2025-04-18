@@ -83,14 +83,14 @@ Reprezentuje shulker boxa, w którym przechowywane są przedmioty. Klasa odpowia
 Zdefiniowane atrybuty:
 - `pojemnosc` - liczba całkowita stałoprzecinkowa. Pojemność magazynu - ile przedmiotów może być maksymalnie w magazynie.
 - `aktualna_ilosc_przedmiotow` - liczba całkowita stałoprzecinkowa. Ile przedmiotów jest aktualnie w magazynie.
-- `maksymalna_laczna_waga` - liczba z trzema miejscami po przecinku. Jest wyrażona w kilogramach, więc wystarczy liczba. Suma wag wszystkich przedmiotów w magazynie.
+- `maksymalna_laczna_waga` - liczba z trzema miejscami po przecinku. Jest wyrażona w kilogramach, więc wystarczy liczba. Maksymalna dozwolona waga wszystkich przedmiotów w magazynie.
 
 Konstruktor klasy inicjuje `pojemnosc` oraz `maksymalna_laczna_waga`.
 
 Implementacja metod:
 - `dodaj_przedmiot(Przedmiot)` - dodaje obiekt klasy `Przedmiot` do obiektu `Magazyn`.
 	- Metoda powinna sprawdzać czy magazyn nie jest pełny oraz czy dodanie przedmiotu nie przekroczy maksymalnej dopuszczalnej wagi magazynu.
-	- Metoda powinna dodawać przedmiot do kolekcji i aktualizować zmienną `aktualna_ilosc_przedmiotow` oraz `maksymalna_laczna_waga`, jeśli warunki są spełnione.
+	- Metoda powinna dodawać przedmiot do kolekcji i aktualizować zmienną `aktualna_ilosc_przedmiotow`, jeśli warunki są spełnione.
 	- Metoda powinna zwrócić `boolean` i prosty komunikat.
 - `wypisz_wszystkie()` - Wypisuje opisy wszystkich obiektów typu `Przedmiot` do konsoli.
 #### Pozostałe wymagania
