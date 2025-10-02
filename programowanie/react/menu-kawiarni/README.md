@@ -7,6 +7,7 @@ Stworzenie od podstaw interaktywnej aplikacji, która będzie pełnić funkcję 
 - Renderowania warunkowego
 - Korzystania z gita w podstawowym zakresie
 ## Zadanie
+Przygotowanie aplikacji zostało podzielone na 4 etapy. **Wskazane jest wykonywać committy jak najczęściej, z dokładną i czytelną wiadomością.** Dobrym momentem na committowanie jest zakończenie etapu, ale **silnie sugerowane** jest committowanie **jeszcze częściej**, przy każdej działającej zmianie.
 ### Etap 1 - Podstawowa struktura
 W głównym komponencie `App.jsx` należy stworzyć tablicę obiektów, która będzie reprezentować dane o kawach. Każdy obiekt powinien zawierać co najmniej:
 - id
