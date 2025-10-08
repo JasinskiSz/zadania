@@ -12,9 +12,9 @@ Celem zadania jest stworzenie aplikacji webowej imitującej prosty eksplorator p
 - JavaScript lub TypeScript (do wyboru)
 - CSS
 
-### Struktura danych
+### Przykładowa struktura danych
 
-Struktura plików i folderów powinna być zdefiniowana jako obiekt JavaScript umieszczony bezpośrednio w kodzie. Przykładowa struktura:
+Struktura plików i folderów może być zdefiniowana jako obiekt JavaScript umieszczony bezpośrednio w kodzie. Przykładowa struktura, którą można wykorzystać:
 
 ```JavaScript
 const fileSystem = {
