@@ -98,15 +98,17 @@ Ważne:
 Otwórz terminal i wykonaj następujące polecenia:
 
 ```bash
-npx create-react-app moj-licznik
+npm create vite moj-licznik
 cd moj-licznik
-npm start
+npm install
+npm run dev
 ```
 
 **Wyjaśnienie poleceń:**
-- `npx create-react-app moj-licznik` - tworzy nowy projekt React o nazwie "moj-licznik" z pełną konfiguracją
+- `npm create vite moj-licznik` - tworzy nowy projekt React za pomocą narzędzia [Vite](https://vite.dev/) o nazwie "moj-licznik".
 - `cd moj-licznik` - przechodzi do folderu projektu
-- `npm start` - uruchamia serwer deweloperski, aplikacja otworzy się automatycznie w przeglądarce pod adresem http://localhost:3000
+- `npm install` - instaluje zależności potrzebne do Vite i Reacta
+- `npm run dev` - uruchamia serwer deweloperski, aplikacja otworzy się automatycznie w przeglądarce pod adresem http://localhost:5137 (lub na innym porcie, jeśli ten jest zajęty)
 
 ### Struktura projektu
 
