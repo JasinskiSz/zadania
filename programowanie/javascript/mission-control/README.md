@@ -32,7 +32,7 @@ Tak powinno wyglądać przykładowe użycie Twoich funkcji:
 
 ```javascript
 // Tworzenie nowej misji
-const misjaAlfa = zaplanujMisje("Projekt Feniks", "Kolonizacyjna");
+const misjaAlfa = zaplanujMisje("Ekspedycja na Marsa", "Badawcza");
 
 // Personalizacja misji
 if (misjaAlfa) {
