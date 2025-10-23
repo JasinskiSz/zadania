@@ -20,11 +20,11 @@ const misja = {
 ```
 ## Funkcje do zaimplementowania
 Twoim zadaniem jest stworzenie funkcji, które będą zarządzać tymi misjami. Poniżej znajdują się wymagania dotyczące funkcji, które musisz zaimplementować:
-- `zaplanujMisje(nazwa, typ)`: Dodaje nową misję do systemu.
-- `dodajCzlonkaZalogi(nazwaMisji, czlonek)`: Dodaje członka załogi do określonej misji.
-- `zaladujSprzet(nazwaMisji, sprzet)`: Dodaje sprzęt do ładowni misji.
-- `przemierzDystans(nazwaMisji, odleglosc)`: Aktualizuje dystans przebytej misji.
-- `raportMisji(nazwaMisji)`: Zwraca szczegółowy raport o misji.
+- `zaplanujMisje(nazwaMisji, typMisji)`: Dodaje nową misję do systemu.
+- `dodajCzlonkaZalogi(misja, czlonek)`: Dodaje członka załogi do określonej misji.
+- `zaladujSprzet(misja, sprzet)`: Dodaje sprzęt do ładowni misji.
+- `przemierzDystans(misja, odleglosc)`: Aktualizuje dystans przebytej misji.
+- `raportMisji(misja)`: Zwraca szczegółowy raport o misji.
 
 ## Przykładowe użycie
 
