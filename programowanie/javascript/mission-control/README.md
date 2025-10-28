@@ -35,21 +35,16 @@ Tak powinno wyglądać przykładowe użycie Twoich funkcji:
 const misjaAlfa = zaplanujMisje("Ekspedycja na Marsa", "Badawcza");
 
 // Personalizacja misji
-if (misjaAlfa) {
-    dodajDoZalogi(misjaAlfa, "Specjalista ds. komunikacji");
-    zaladujSprzet(misjaAlfa, "Generator tlenu");
-    zaladujSprzet(misjaAlfa, "Drukarka 3D");
+dodajDoZalogi(misjaAlfa, "Specjalista ds. komunikacji");
+zaladujSprzet(misjaAlfa, "Generator tlenu");
+zaladujSprzet(misjaAlfa, "Drukarka 3D");
 
-    // Postęp misji
-    przemierzDystans(misjaAlfa, 10);
-    przemierzDystans(misjaAlfa, 5);
+// Postęp misji
+przemierzDystans(misjaAlfa, 10);
+przemierzDystans(misjaAlfa, 5);
 
-    // Wygenerowanie końcowego raportu
-    console.log(raportMisji(misjaAlfa));
-}
-
-// Przykład walidacji
-const nieudanaMisja = zaplanujMisje("Test", "Badawcza"); // Powinien wyświetlić błąd i zwrócić null
+// Wygenerowanie końcowego raportu
+console.log(raportMisji(misjaAlfa));
 ```
 
 ## Oczekiwany wynik
