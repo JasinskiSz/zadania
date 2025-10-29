@@ -3,6 +3,9 @@ To zadanie bazuje na II części arkusza [INF.04-03-23.06-SG.pdf](./INF.04-03-23
 
 W tym pliku znajdują się zdjęcia poglądowe formularza wykonanego w Angularze i React.js oraz tabela I wspomniana w dalszej części tego dokumentu.
 
+## Cel
+Wykonaj aplikację internetową typu front-end obsługującą formularz z zastosowaniem frameworka Angular lub biblioteki React. Zastosuj bibliotekę Bootstrap do zdefiniowania stylu formularza.
+
 ## Założenia aplikacji
 - Aplikacja składa się z jednego komponentu formularza
 - Formularz składa się z:

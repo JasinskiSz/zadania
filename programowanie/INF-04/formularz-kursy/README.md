@@ -3,6 +3,9 @@ To zadanie bazuje na II części arkusza [INF.04-02-22.06-SG](./INF.04-02-22.06-
 
 W tym pliku znajdują się zdjęcia poglądowe formularza wykonanego w Angularze i React.js wspomniana w dalszej części tego dokumentu.
 
+## Cel
+Wykonaj aplikację internetową typu front-end obsługującą zapisy na kursy z zastosowaniem dostępnego na stanowisku egzaminacyjnym frameworka Angular lub biblioteki React. Zastosuj bibliotekę Bootstrap do zdefiniowania stylu formularza.
+
 ## Założenia aplikacji
 - Aplikacja składa się z jednego komponentu.
 - Danymi komponentu jest tablica z nazwami kursów, o elementach: "Programowanie w C#", "Angular dla początkujących", "Kurs Django". Dla uproszczenia tablica może być zdefiniowana jako pole komponentu. Należy założyć, że tablica w przyszłości może się zmienić, co będzie miało wpływ na zachowanie i wygląd aplikacji.
