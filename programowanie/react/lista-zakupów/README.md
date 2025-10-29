@@ -48,4 +48,4 @@ Każdy produkt to obiekt z:
 - Użyj useState do przechowywania tablicy produktów
 - Do generowania ID możesz użyć Date.now()
 - Do renderowania listy użyj .map()
-- Zacznij od App.jsx - wszystko może być w jednym komponencie
+- Zacznij od App.jsx - wszystko może być w jednym komponencie (potem rozbij na osobne komponenty)
