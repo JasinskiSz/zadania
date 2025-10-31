@@ -41,7 +41,7 @@ Wybór strefy magazynowej - określ strefę:
 - Strefa B: waga > 500kg ORAZ NIE delikatne
 - Strefa C: objętość > 10m³ ORAZ waga < 500kg
 - Strefa D: pozostałe
-Dodatkowo: jeśli to weekend ORAZ nie EXPRESS, dodaj "_TEMP" do strefy
+- Dodatkowo: jeśli to weekend ORAZ nie EXPRESS, dodaj "_TEMP" do strefy
 
 Oblicz koszt obsługi na podstawie warunków:
 - Koszt podstawowy = 100 PLN
