@@ -33,7 +33,9 @@ Przećwiczenie manipulacji indeksem w pętli for.
 
 ### Treść:
 Stwórz tablicę zawierającą kilka imion ( string[] ).
+
 Napisz program, który wyświetli wszystkie elementy tablicy w odwrotnej kolejności, każdy w nowej linii.
+
 Pamiętaj, że ostatni element tablicy ma indeks tablica.Length - 1.
 
 ## Zadanie 4: Liczenie liczb parzystych
@@ -43,9 +45,12 @@ Połączenie pętli foreach z operatorem modulo (%).
 
 ### Treść:
 Stwórz tablicę liczb całkowitych.
+
 Napisz program, który policzy, ile w tablicy jest liczb parzystych.
 Użyj pętli foreach do przejrzenia wszystkich elementów.
+
 Podpowiedź: Liczba jest parzysta, jeśli reszta z jej dzielenia przez 2 jest równa 0 (liczba % 2 == 0).
+
 Wariant rozszerzony: Program powinien liczyć i wyświetlać zarówno liczbę parzystych, jak i nieparzystych.
 
 # Poziom Średniozaawansowany: Bardziej złożone operacje
