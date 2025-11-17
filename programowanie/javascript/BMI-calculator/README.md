@@ -5,3 +5,8 @@ Użytkownik wpisuje wagę w kg, wzrost w cm, a po kliknięciu "oblicz" na stroni
 
 Wzór na BMI:
 `BMI = masa ciała / wzrost^2`
+
+Interpretację tekstową oprzyj na wartościach z poniższego obrazu:
+![skala BMI](./bmi-scale.png)
+
+Możesz śmiało pominąć stopnie otyłości i zamiast tego zrobić po prostu "otyłość" w przypadku, gdy BMI jest większe lub równe 30.
