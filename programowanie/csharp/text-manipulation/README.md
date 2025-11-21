@@ -42,3 +42,39 @@ Długość: 9
 Pierwsza litera: A
 Ostatnia litera: a
 ```
+
+## Zadanie 3: Liczenie wystąpień znaku
+Napisz program, który wczyta cały tekst, a potem wczyta jeden znak (np. literę) do wyszukania.
+
+Następnie funkcją programu będzie policzenie, ile razy ten znak występuje w tekście.
+
+### Przykład:
+Wejście:
+```
+Tekst: banana
+Znak: a
+```
+
+Wyjście: 
+```
+Litera 'a' występuje 3 razy.
+```
+
+Podpowiedź: pętla `for` po `text[i]`.
+
+## Zadanie 4: Zamiana spacji na podkreślniki
+Napisz program, który:
+
+1. Wczyta zdanie.
+2. Zastąpi wszystkie spacje znakiem `_`.
+3. Wypisze zmieniony tekst.
+
+### Przykład:
+Wejście: `Ala ma kota`
+Wyjście: `Ala_ma_kota`
+
+### Zadanie 4.1
+Pozwól użytkownikowi wybrać znak, na który ma zamienić spację
+
+### Zadanie 4.2
+Skoro użytkownik wybiera znak, na który mają być zamienione spacje, dlaczego by nie pozwolić mu wybierać też drugiego znaku zamiast na sztywno ustawione mieć spacje?
