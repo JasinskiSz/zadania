@@ -20,3 +20,21 @@ Napisz program, który poprosi użytkownika o wpisanie dowolnego zdania. Następ
 
 Gdy ten etap się uda, rozszerz kod w taki sposób, aby wyświetlał tylko raz wpisany tekst - albo z wielkich liter, albo z małych. Pozwól userowi zdecydować który wariant ma się wyświetlić.
 
+## Zadanie 2:  Długość tekstu i pierwsza/ostatnia litera
+Napisz program, który wczyta od użytkownika dowolny tekst i wypisze:
+- wpisany tekst bez spacji na końcu i początku tekstu
+- długość tekstu,
+- pierwszą literę,
+- ostatnią literę.
+
+### Przykład:
+
+Wejście: `   Agnieszka` <- tutaj są spacje na początku stringa
+
+Wyjście:
+``` text
+Wpisałeś: Agnieszka
+Długość: 9
+Pierwsza litera: A
+Ostatnia litera: a
+```
