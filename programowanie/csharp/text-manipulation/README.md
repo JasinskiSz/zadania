@@ -11,14 +11,18 @@ Mała ściąga przed startem:
 - `.Substring(start, długość)` - wycinanie fragmentu,
 - `.Split(' ')` - dzielenie na stringa tablicę stringów.
 
-## Zadanie 1: Statystyki tekstu
+## Zadanie 1: Zamiana wielkości liter
 Napisz program, który poprosi użytkownika o wpisanie dowolnego zdania. Następnie wypisz:
 
 - Długość tekstu (liczbę znaków).
 - Tekst zapisany samymi wielkimi literami.
 - Tekst zapisany samymi małymi literami.
 
+### Zadanie 1.1:
 Gdy ten etap się uda, rozszerz kod w taki sposób, aby wyświetlał tylko raz wpisany tekst - albo z wielkich liter, albo z małych. Pozwól userowi zdecydować który wariant ma się wyświetlić.
+
+### Zadanie 1.2:
+Następnie dodaj opcję wyświetlania tekstu, w którym tylko pierwsza litera jest wielka, a reszta małe.
 
 ## Zadanie 2:  Długość tekstu i pierwsza/ostatnia litera
 Napisz program, który wczyta od użytkownika dowolny tekst i wypisze:
