@@ -54,3 +54,27 @@ W `Program.cs`:
 - Zdefiniuj zmienną `double litry = 20`.
 - Użyj obiektu `Kalkulator` (stworzonego w jednym z poprzednich zadań), aby pomnożyć te liczby.
 - Jeśli operacja `Wyplac` na kwotę obliczoną przez kalkulator się udała, wypisz: "Zatankowano samochód [Marka]!".
+
+## Etap 2: Enkapsulacja i Konstruktory
+
+### Prywatne dane i Właściwości
+- Zmodyfikuj klasę `Samochod`. 
+- Zmień pola `Marka`, `RokProdukcji` i `Predkosc` na private (np. _marka).
+- Stwórz do nich publiczne właściwości: `Marka`, `RokProdukcji`, `Predkosc` (użyj get i set).
+- Zauważ, że w `Program.cs` kod nadal działa (lub wymaga drobnych poprawek wielkości liter), ale teraz mamy kontrolę nad dostępem.
+
+### Konstruktor Samochodu
+- W klasie `Samochod` stwórz konstruktor, który przyjmuje `markę` i `rokProdukcji`.
+- Dzięki temu nie da się stworzyć samochodu "widmo" bez danych.
+- W `Program.cs` napraw nowe błędy, jeśli się pojawiły (powinny).
+
+### Bezpieczne Konto Bankowe
+- W klasie `KontoBankowe` zmień pole `Saldo` na właściwość.
+- Ustaw set jako private (tzn. public decimal Saldo { get; private set; }).
+
+Teraz nikt w `Program.cs` nie może wpisać `konto.Saldo = 1000000;`. Jedyny sposób zmiany salda to użycie metod `Wplac` lub `Wyplac`, które napisaliśmy wcześniej. To kluczowa zasada bezpieczeństwa obiektów.
+
+### Walidacja danych (Logika w set)
+- W klasie `Samochod` zmodyfikuj właściwość `RokProdukcji`.
+- W bloku set dodaj warunek: jeśli rok jest wcześniejszy niż 1886 (wynalezienie auta) lub późniejszy niż obecny rok, ustaw wartość na `2000` (domyślną), w przeciwnym razie przypisz podaną wartość.
+- Przetestuj w `Program.cs`, próbując stworzyć auto z roku 1500, drugie bez podawania wartości, a trzecie z rokiem z przyszłości.
