@@ -4,7 +4,7 @@
 
 Celem projektu jest przygotowanie prostej aplikacji pogodowej w technologii Next.js, która:
 
-- pobiera dane pogodowe z zewnętrznego API (np. OpenWeatherMap),
+- pobiera dane pogodowe z zewnętrznego API (np. weatherapi),
 - wyświetla podstawowe informacje o aktualnej pogodzie dla wybranego miasta,
 - umożliwia zapoznanie się z podstawami:
   - tworzenia aplikacji w Next.js,
@@ -21,9 +21,9 @@ W projekcie należy wykorzystać:
 - **JavaScript** lub **TypeScript** (wg preferencji, ale zachęcam bardzo do skorzystania z TypeScriptu),
 - **CSS** (np. moduły CSS, `styled-jsx`, Tailwind CSS lub inny prosty sposób stylowania).
 
-Jako źródło danych pogodowych należy wykorzystać publiczne API, np.:
+Jako źródło danych pogodowych należy wykorzystać API, np.:
 
-- [OpenWeatherMap](https://openweathermap.org/api)  
+- [weatherapi](https://www.weatherapi.com/signup.aspx)  
   (wymagane utworzenie darmowego konta i użycie klucza API).
 
 ## 3. Wymagania funkcjonalne
@@ -89,7 +89,7 @@ Strona powinna składać się z następujących sekcji:
      - panel z wynikami.
 
 3. **Stopka (opcjonalnie)**
-   - Może zawierać krótką informację, np. źródło danych: „Dane pogodowe: OpenWeatherMap”.
+   - Może zawierać krótką informację, np. źródło danych: „Dane pogodowe: weatherapi".
 
 ### 4.2. Formularz wyszukiwania
 
