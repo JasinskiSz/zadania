@@ -262,7 +262,7 @@ Wejście: `To jest test.`
 Wyjście:
 ```text
 Liczba samogłosek: 3
-Liczba spółgłosek: 6
+Liczba spółgłosek: 7
 ```
 
 Podpowiedź: Stwórz stringa lub tablicę zawierającą wszystkie samogłoski `"aeiouy"`. W pętli przechodzącej po każdym znaku w tekście wejściowym sprawdzaj:
