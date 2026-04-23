@@ -1,0 +1,2 @@
+# Stragan NPC
+Stwórz system, w którym gracz może podejść do różnych przedmiotów, a po kliknięciu w nie wyświetla się cena. Jeśli gracz ma wystarczająco waluty, przedmiot zostaje dodany do jego ekwipunku, a pieniądze odjęte.

@@ -1,0 +1,2 @@
+# Arena Sumo
+Zbuduj okrągłą platformę nad przepaścią. Dodaj skrypt, który sprawia, że gracze mają zwiększoną siłę odrzutu przy dotknięciu się, następnie wyposaż ich w narzędzie do wypychania innych poza krawędź.

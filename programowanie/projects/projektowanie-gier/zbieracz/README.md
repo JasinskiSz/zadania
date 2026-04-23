@@ -1,0 +1,2 @@
+# Symulator Zbieracza
+Stwórz mapę z losowo pojawiającymi się przedmiotami. Gracz musi je dotykać, aby znikały i dodawały punkty do tabeli wyników. Skup się na mechanice odradzania się przedmiotów w różnych miejscach.

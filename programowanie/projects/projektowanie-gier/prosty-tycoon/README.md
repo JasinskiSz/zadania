@@ -1,0 +1,2 @@
+# Prosty Tycoon
+Stwórz system, w którym dropper co kilka sekund wypuszcza jakiś przedmiot. Te przedmioty muszą wpadać do kolektora, który zamienia je na walutę, pozwalającą kupić ulepszenie prędkości produkcji.
