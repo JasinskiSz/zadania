@@ -27,4 +27,4 @@ Celem zadania jest implementacja interaktywnego kalkulatora płac w formie aplik
 ## 4. Kryteria Akceptacji
 * Wprowadzenie poprawnych danych wejściowych skutkuje natychmiastową aktualizacją wszystkich pól wynikowych.
 * Brak błędów i ostrzeżeń w konsoli deweloperskiej podczas użytkowania aplikacji.
-* Matematyczna poprawność wyliczeń.
+* Zgodność algorytmu obliczeniowego z aktualnymi stawkami podatkowymi oraz systemem ubezpieczeń społecznych obowiązującym w bieżącym roku podatkowym.
